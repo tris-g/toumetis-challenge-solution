@@ -32,10 +32,19 @@ Then, in your intenet browser, navigate to `localhost:3000` for the website or `
 *Please note Python 3.12 and other dependencies are required to run this script. Additionally, ensure you are located in the project root.*
 
 The CSV ingestion script is given a directory for which it will iterate sub-directories named with "division", finding all the CSV files that are suffixed with YYYYMMDD, and commit to the database.
+
+Firstly, ensure the correct environment variables are set or available at `backend/.env`:
+
+```
+DATABASE_URL=sqlite:///./dev.db
+CONFIG_PATH=config.yaml
+SCHEMA_DIR_PATH=division_schemas
+```
+
 To start the script please run:
 
 ```
-cd ./backend/
+cd backend
 pip install -r requirements.txt
 python ingest.py /path/to/directory
 ```

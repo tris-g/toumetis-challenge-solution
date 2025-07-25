@@ -1,4 +1,4 @@
-import yaml
+import os, yaml
 from io import StringIO,BytesIO
 from pathlib import Path
 from typing import Callable
@@ -10,7 +10,7 @@ from models import Rank, Position, Department, SalaryBand
 from db_ops import resolve_fk
 from utils import clean_contact_number
 
-DIVISION_SCHEMAS_DIR = "./division_schemas"
+DIVISION_SCHEMAS_DIR = os.getenv("SCHEMA_DIR_PATH")
 MODEL_REG = {
     'rank':        (Rank, 'rank_id', 'name'),
     'position':    (Position, 'position_id', 'name'),
