@@ -1,0 +1,22 @@
+division_id: 2
+
+headers:
+  surname: string
+  first_name: string
+  position: string
+  salary_band: integer
+  department: string
+  contact_number: string
+  start_date: date
+
+transforms:
+  position:
+    type: regex
+    pattern: '^\s*(\w+)\s+(.+?)\s*$'
+    groups:
+      1: rank
+      2: position
+    
+  contact_number:
+    type: func
+    action: clean_contact_number

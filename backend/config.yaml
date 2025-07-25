@@ -1,0 +1,67 @@
+divisions:
+  - 1
+  - 2
+
+ranks:
+  - "Graduate"
+  - "Junior"
+  - "General"
+  - "Senior"
+  - "Principal"
+
+positions:
+  - "Software Engineer"
+  - "Frontend Developer"
+  - "Backend Developer"
+  - "Full Stack Developer"
+  - "DevOps Engineer"
+  - "Site Reliability Engineer"
+  - "QA Engineer"
+  - "Test Automation Engineer"
+  - "Data Engineer"
+  - "Data Scientist"
+  - "Machine Learning Engineer"
+  - "Security Engineer"
+  - "Cloud Engineer"
+  - "Infrastructure Engineer"
+  - "Database Administrator"
+  - "Mobile Developer"
+  - "iOS Developer"
+  - "Android Developer"
+  - "Game Developer"
+  - "Embedded Systems Developer"
+  - "UX Designer"
+  - "UI Designer"
+  - "Product Manager"
+  - "Project Manager"
+  - "Scrum Master"
+  - "Business Analyst"
+  - "Technical Writer"
+  - "Release Manager"
+  - "Build Engineer"
+  - "System Administrator"
+  - "Office Manager"
+
+departments:
+  - "Engineering"
+  - "Product"
+  - "Design"
+  - "Quality Assurance"
+  - "DevOps"
+  - "Data Science"
+  - "IT Support"
+  - "Security"
+  - "Project Management"
+  - "Human Resources"
+  - "Finance"
+  - "Marketing"
+  - "Sales"
+  - "Customer Support"
+  - "Legal"
+  
+salary_bands:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
